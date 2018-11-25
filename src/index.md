@@ -13,7 +13,7 @@ Our goal is to provide working solutions and design recommendations based on our
 ## Recommended Tools / Practices
 - [Tweleve-Factor App](https://12factor.net/) This is one of the most important items to be familiar with. While it cannot be blindly followed, it is good to have the techniques and methods in your tool belt. Following it where you can will greatly simplify app migrations and provide a solid pattern for building new applications.
 - [Terraform](https://www.terraform.io/) Terraform is a tool for managing infrastructure across multiple cloud providers and has become the de-facto tool for infrastructure automation.
-- [Kubernetes](https://kubernetes.io/)
+- [Kubernetes](https://kubernetes.io/) Kubernetes has become the de-facto container orchestration platform that has gained explosive growth over the years.
 - [Jenkins](https://jenkins.io/) Jenkins is an automation platform that is mature, and allows you to get stuff done. It is typically the bridge between code and working environments. At the core of Jenkins is a plugin system that allows it to be extensible to meet any needs you may have.
 - [ELK Stack](https://www.elastic.co/webinars/introduction-elk-stack) An entirely open source centralized logging platform that is widely known in the open source community. While vast, it can be hard to configure and setup in a way that scales and there are some pitfalls associated with some of the components.
 - [Ansible](https://www.ansible.com/) Ansible is a (newer) automation tool that aims at performing configuration management and orchestration to groups of servers. It is not the most powerful but it is easy to get started with and easy for organizations to adopt and for that reason it is on our recommended list.
