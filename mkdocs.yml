@@ -1,14 +1,16 @@
 site_name: Beyah Solutions
 docs_dir: src
+plugins:
+  - blog
 theme:
   name: material
   palette:
     primary: 'indigo'
     accent: 'indigo'
-extra:
-  social:
-    - type: 'github'
-      link: 'https://github.com/beyahsolutions'
+# extra:
+#   social:
+#     - type: 'github'
+#       link: 'https://github.com/beyahsolutions'
 google_analytics:
   - 'UA-69987010-1'
   - auto
@@ -21,3 +23,4 @@ markdown_extensions:
 use_directory_urls: false
 nav:
   - About: index.md
+  - Blog: blog/index.md
